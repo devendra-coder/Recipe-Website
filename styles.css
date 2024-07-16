@@ -43,6 +43,16 @@ a{
     display: flex;
     gap: 25px;
 }
+.contentbox{
+    width: 90%;
+    margin: auto;
+    /* border: 2px solid black; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    box-shadow: 10px 5px 20px black;
+}
 .footerBox{
     background-image: linear-gradient(150deg, #FA8970 0%, #fa709a 60%, #fee140 95%, #fee140 100%);
     color: azure;
@@ -56,4 +66,35 @@ a{
 .footerBox p{
     color: azure;
     font-size: 1.5rem;
+}
+.item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 150px;
+}
+.rightbox{
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    height: 400px;
+    align-items: center;
+}
+.rightbox img{
+    border-radius: 20px;
+    width: 350px;
+}
+.leftbox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.leftbox h3{
+    font-size: 1.2rem;
+}
+.Ingredientsbox{
+    font-size: 1.1rem;
+}
+.recipebox{
+    font-size: 1.1rem;
 }
