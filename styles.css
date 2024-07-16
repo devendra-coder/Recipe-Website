@@ -43,3 +43,17 @@ a{
     display: flex;
     gap: 25px;
 }
+.footerBox{
+    background-image: linear-gradient(150deg, #FA8970 0%, #fa709a 60%, #fee140 95%, #fee140 100%);
+    color: azure;
+    width: 100%;
+    text-align: center;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerBox p{
+    color: azure;
+    font-size: 1.5rem;
+}
