@@ -1,15 +1,17 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.container{
+
+.container {
     height: 100vh;
     width: 100vw;
     overflow: none;
-    background-color:#ebe7e8;
+    background-color: #ebe7e8;
 }
-.navcontainer{
+
+.navcontainer {
     width: 100vw;
     background-image: linear-gradient(150deg, #FA8970 0%, #fa709a 60%, #fee140 95%, #fee140 100%);
     min-height: 80px;
@@ -18,10 +20,12 @@
     align-items: center;
     width: 100%;
 }
-nav{
+
+nav {
     width: 100%;
 }
-#navlist{
+
+#navlist {
     padding: 10px;
     margin-left: 15px;
     margin-right: 15px;
@@ -31,29 +35,34 @@ nav{
     justify-content: space-around;
     align-items: center;
 }
-#brand_name{
+
+#brand_name {
     font-size: 2.5rem;
     color: rgb(237, 236, 240);
 }
-a{
+
+a {
     text-decoration: none;
     color: rgb(247, 237, 237);
 }
-#nav-items{
+
+#nav-items {
     display: flex;
     gap: 25px;
 }
-.contentbox{
+
+.contentbox {
     width: 90%;
     margin: auto;
-     border: 2px solid black; 
+    border: 2px solid black;
     background-color: white;
     display: flex;
     flex-direction: column;
     gap: 100px;
     box-shadow: 10px 5px 20px black;
 }
-.footerBox{
+
+.footerBox {
     background-image: linear-gradient(150deg, #FA8970 0%, #fa709a 60%, #fee140 95%, #fee140 100%);
     color: azure;
     width: 100%;
@@ -63,19 +72,22 @@ a{
     justify-content: center;
     align-items: center;
 }
-.footerBox p{
+
+.footerBox p {
     color: azure;
     font-size: 1.5rem;
 }
-.item{
+
+.item {
     height: 350px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    align-content:flex-start;
+    align-content: flex-start;
     gap: 150px;
 }
-.rightbox{
+
+.rightbox {
     display: flex;
     /* margin: 20px;
     padding: 5px; */
@@ -85,30 +97,37 @@ a{
     position: relative;
     overflow: hidden;
 }
-.rightbox img{
+
+.rightbox img {
     border-radius: 20px;
     width: 300px;
     transition: all 0.6s 0s ease-in-out;
 }
-.leftbox{
+
+.leftbox {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.leftbox h3{
+
+.leftbox h3 {
     font-size: 1.2rem;
 }
-.Ingredientsbox{
+
+.Ingredientsbox {
     font-size: 1.1rem;
 }
-.recipebox{
+
+.recipebox {
     font-size: 1.1rem;
 }
-.rightbox:hover{
+
+.rightbox:hover {
     transform: scale(1.1);
 }
-.rightbox .overlay{
-    position:absolute;
+
+.rightbox .overlay {
+    position: absolute;
     top: 0;
     left: 0;
     height: 100%;
@@ -121,10 +140,12 @@ a{
     opacity: 0;
     transition: all .5s 0s linear;
 }
-.rightbox:hover .overlay{
+
+.rightbox:hover .overlay {
     opacity: 1;
 }
-.overlay span{
+
+.overlay span {
     font-size: 1.2rem;
     color: white;
 }
